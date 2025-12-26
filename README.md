@@ -1,7 +1,6 @@
 # SQL Data – Sales Analysis
 
-## 📌 Project Overview
-This repository showcases hands-on SQL practice using a real-world **sales dataset**.  
+## 📌 Project Overview 
 The focus is on solving **business-oriented questions** through SQL, progressing from basic to advanced concepts.
 
 The project demonstrates the ability to:
