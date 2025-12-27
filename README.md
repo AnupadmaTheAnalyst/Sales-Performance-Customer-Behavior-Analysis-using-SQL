@@ -45,18 +45,21 @@ This project uses SQL to answer practical business questions related to sales pe
    - `operations_and_risk_analysis.sql`
 5. Review the query results to see insights for each business question.
 ---
-| Business Question                            | SQL File                           | Output                   |
-| -------------------------------------------- | ---------------------------------- | ------------------------ |
-| What are revenue trends by year & month?     | `sales_performance_analysis.sql`   | Seasonal patterns        |
-| Which product lines contribute most revenue? | `sales_performance_analysis.sql`   | Product prioritization   |
-| Who are high-value customers?                | `customer_behavior_analysis.sql`   | Segment targeting        |
-| What are key operational risks?              | `operations_and_risk_analysis.sql` | Risk & efficiency checks |
+| Business Question                        | SQL File                         | Insight Category      |
+| ---------------------------------------- | -------------------------------- | --------------------- |
+| Revenue patterns by year/month           | sales_performance_analysis.sql   | Trends & seasonality  |
+| Product lines generating highest revenue | sales_performance_analysis.sql   | Product performance   |
+| High value customers                     | customer_behavior_analysis.sql   | Customer segmentation |
+| Recurring customers                      | customer_behavior_analysis.sql   | Retention analysis    |
+| Order cancellation patterns              | operations_and_risk_analysis.sql | Risk analysis         |
 ---
 ## 🔧 SQL Concepts Used
-- Aggregations, subqueries
+- Aggregations (SUM, AVG, COUNT)
+- GROUP BY + HAVING
+- Subqueries
 - Window functions (RANK, LAG)
 - Conditional logic (CASE WHEN)
-- Time-series analysis
+- Time-series insights
 ---
 ## 🔍 Key Insights
 - Large deal sizes contribute disproportionately to total revenue.
@@ -85,6 +88,16 @@ This project uses SQL to answer practical business questions related to sales pe
 - Handling NULL values and ensuring accurate aggregations.
 - Understanding how window functions improve trend analysis.
 - Translating business questions into robust SQL logic.
+
+---
+## 📌 Why This Project Matters
+
+In a real organization, this analysis could:
+- Identify seasonal demand patterns for inventory planning.
+- Reveal top customer segments for targeted campaigns.
+- Detect rising cancellation trends for operational improvements.
+- Guide pricing and deal strategy to maximize revenue.
+
 
 
 
