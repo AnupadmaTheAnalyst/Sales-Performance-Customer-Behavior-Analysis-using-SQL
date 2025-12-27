@@ -12,7 +12,7 @@ This project uses SQL to answer practical business questions related to sales pe
 - Understand deal-size impact on revenue
 - Analyze customer ordering behavior and retention
 - Detect operational issues such as order cancellations
-- Practice SQL from basic to advanced business scenarios
+- Apply SQL from basic to advanced business scenarios
 
 ---
 
@@ -52,7 +52,12 @@ This project uses SQL to answer practical business questions related to sales pe
 | Who are high-value customers?                | `customer_behavior_analysis.sql`   | Segment targeting        |
 | What are key operational risks?              | `operations_and_risk_analysis.sql` | Risk & efficiency checks |
 ---
-
+## 🔧 SQL Concepts Used
+- Aggregations, subqueries
+- Window functions (RANK, LAG)
+- Conditional logic (CASE WHEN)
+- Time-series analysis
+---
 ## 🔍 Key Insights
 - Large deal sizes contribute disproportionately to total revenue.
 - A small group of customers generates a significant portion of overall sales.
